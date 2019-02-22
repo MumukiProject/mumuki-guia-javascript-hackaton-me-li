@@ -12,5 +12,4 @@ los segundos números más grandes de todas las colecciones. Un ejemplo de invoc
 
 **Nota**: Si la colección solo tiene un elemento, este sera el segundo más grande.
 
-@param collection
-@returns {Array}
+> Desarrollá la función `segundosNumerosMasGrandes` que cumpla los requisitos mencionados. Acordate de respetar la firma @param collection @returns {Array}.
