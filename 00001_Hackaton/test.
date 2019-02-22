@@ -1,7 +1,7 @@
 it("Ejemplo 1", () => {
-  assert.equal(segundosNumerosMasGrandes([[0, 1, 2, 3, 4],[5, 6, 7, 8, 9]]), [3, 8])
+  assert.deepEqual(segundosNumerosMasGrandes([[0, 1, 2, 3, 4],[5, 6, 7, 8, 9]]), [3, 8])
 })
 
 it("Ejemplo 2", () => {
-  assert.equal(segundosNumerosMasGrandes([[0, 1, 2, 3, 4, 5],[5, 6, 7, 8, 9, 10]]), [4, 9])
+  assert.deepEqual(segundosNumerosMasGrandes([[0, 1, 2, 3, 4, 5],[5, 6, 7, 8, 9, 10]]), [4, 9])
 })
